@@ -42,7 +42,9 @@ namespace GenericPractices
 
             //MaximumOfThree.Maximum("apple","boll","cat");
             //MaximumOfThree.Maximum("zebra","cow","dog");
-            //MaximumOfThree.Maximum("cat", "Lion", "fox");
+            //MaximumOfThree.Maximum("Lion", "Zebra", "Apple");
+
+            Program.Maximum(10.78,80.65,30.89);
 
         }
 
@@ -57,9 +59,20 @@ namespace GenericPractices
             }
         }
 
-        public static void  Maximum<T, extends, Comparable>(T value1,T value2, T value3)
+        public static void  Maximum<T>(T value1,T value2, T value3) where T : IComparable<T> 
         {
-            
+            if (value1.CompareTo(value2) > 0 && value1.CompareTo(value3)>0)
+            {
+                Console.WriteLine($"{value1} is greater");
+            }
+            else if (value2.CompareTo(value1)>0 && value2.CompareTo(value3) > 0)
+            {
+                Console.WriteLine($"{value2} is greater");
+            }
+            else
+            {
+                Console.WriteLine($"{value3} is greater");
+            }
         }
 
         
