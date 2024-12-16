@@ -1,0 +1,14 @@
+C:\Users\vaish\source\repos\GenericPractices\GenericPractices\bin\Debug\netcoreapp3.1\GenericPractices.exe
+C:\Users\vaish\source\repos\GenericPractices\GenericPractices\bin\Debug\netcoreapp3.1\GenericPractices.deps.json
+C:\Users\vaish\source\repos\GenericPractices\GenericPractices\bin\Debug\netcoreapp3.1\GenericPractices.runtimeconfig.json
+C:\Users\vaish\source\repos\GenericPractices\GenericPractices\bin\Debug\netcoreapp3.1\GenericPractices.runtimeconfig.dev.json
+C:\Users\vaish\source\repos\GenericPractices\GenericPractices\bin\Debug\netcoreapp3.1\GenericPractices.dll
+C:\Users\vaish\source\repos\GenericPractices\GenericPractices\bin\Debug\netcoreapp3.1\GenericPractices.pdb
+C:\Users\vaish\source\repos\GenericPractices\GenericPractices\obj\Debug\netcoreapp3.1\GenericPractices.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vaish\source\repos\GenericPractices\GenericPractices\obj\Debug\netcoreapp3.1\GenericPractices.AssemblyInfoInputs.cache
+C:\Users\vaish\source\repos\GenericPractices\GenericPractices\obj\Debug\netcoreapp3.1\GenericPractices.AssemblyInfo.cs
+C:\Users\vaish\source\repos\GenericPractices\GenericPractices\obj\Debug\netcoreapp3.1\GenericPractices.csproj.CoreCompileInputs.cache
+C:\Users\vaish\source\repos\GenericPractices\GenericPractices\obj\Debug\netcoreapp3.1\GenericPractices.sourcelink.json
+C:\Users\vaish\source\repos\GenericPractices\GenericPractices\obj\Debug\netcoreapp3.1\GenericPractices.dll
+C:\Users\vaish\source\repos\GenericPractices\GenericPractices\obj\Debug\netcoreapp3.1\GenericPractices.pdb
+C:\Users\vaish\source\repos\GenericPractices\GenericPractices\obj\Debug\netcoreapp3.1\GenericPractices.genruntimeconfig.cache
