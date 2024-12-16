@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Runtime.InteropServices;
 
 namespace GenericPractices
 {
@@ -8,6 +9,7 @@ namespace GenericPractices
         {
             Console.WriteLine("-------Generics--------");
 
+            //-----------To print----------
             //int[] intArray = { 10,20,30,40 };
             //double[] doubleArray = {1.1,2.1,3.1,4.1 };
             //char[] charArray = { 'a', 'b', 'c', 'd' };
@@ -31,7 +33,7 @@ namespace GenericPractices
 
 
 
-            //maximum of three
+            //---------maximum of three-----------without generics
             //MaximumOfThree.Maximum(30, 20, 10);
             //MaximumOfThree.Maximum(10, 30, 20);
             //MaximumOfThree.Maximum(20, 10, 30);
@@ -44,10 +46,17 @@ namespace GenericPractices
             //MaximumOfThree.Maximum("zebra","cow","dog");
             //MaximumOfThree.Maximum("Lion", "Zebra", "Apple");
 
-            Program.Maximum(10.78,80.65,30.89);
-            Program.Maximum(40,50,60);
-            Program.Maximum('a','s','r');
-            Program.Maximum("bamboo","elephant","cat");
+            //with generics method
+            //Program.Maximum(10.78,80.65,30.89);
+            //Program.Maximum(40,50,60);
+            //Program.Maximum('a','s','r');
+            //Program.Maximum("bamboo","elephant","cat");
+
+            //with generics class
+            new MaximumOfThree<int>(20,10,40).Maximum();
+            new MaximumOfThree<double>(2.3, 5.7, 6.2).Maximum();
+            new MaximumOfThree<string>("a","d","b").Maximum();
+            new MaximumOfThree<char>('q','r','a').Maximum();
 
         }
 
