@@ -45,6 +45,9 @@ namespace GenericPractices
             //MaximumOfThree.Maximum("Lion", "Zebra", "Apple");
 
             Program.Maximum(10.78,80.65,30.89);
+            Program.Maximum(40,50,60);
+            Program.Maximum('a','s','r');
+            Program.Maximum("bamboo","elephant","cat");
 
         }
 
